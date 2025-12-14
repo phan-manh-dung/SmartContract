@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build output
+dist/
+build/
+
+# Environment files (keep .env.example)
+.env
+.env.local
+.env.*.local
+
+# Editor directories
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Cache
+.cache/
+.parcel-cache/
+
+# Vite
+*.local
+
+# Contract artifacts (if using Hardhat/Truffle)
+artifacts/
+cache/
+typechain/
+typechain-types/
+
+# Coverage
+coverage/
+.nyc_output/
